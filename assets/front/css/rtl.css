@@ -1,0 +1,351 @@
+/**
+* Accordion
+*/
+.elmpath-accordion .toggle-icon {
+    right: auto !important;
+    left: 20px !important;
+}
+
+.elmpath-accordion-5 .elmpath-accordion-title,
+.elmpath-accordion-4 .elmpath-accordion-title {
+    padding: 22px 23px 22px 28px !important;
+}
+
+.elmpath-accordion-6 .onoffswitch {
+    float: left !important;
+}
+
+.elmpath-accordion-6 .onoffswitch-inner:before {
+    text-align: left !important;
+}
+
+.elmpath-accordion-6 .elmpath-accordion-item.active .onoffswitch-label .onoffswitch-inner {
+    margin-right: -100% !important;
+    margin-left: 0 !important;
+}
+
+.elmpath-accordion-6 .onoffswitch-inner {
+    margin-right: 0 !important;
+}
+
+.elmpath-accordion-6 .onoffswitch-inner:after {
+    padding-left: 29px !important;
+    text-align: left !important;
+    padding-right: 0 !important;
+}
+
+.elmpath-accordion-6 .elmpath-accordion-item.active .onoffswitch-label .onoffswitch-switch {
+    left: calc(100% - 22px) !important;
+}
+
+.elmpath-accordion-6 .onoffswitch-switch {
+    left: 10px !important;
+    right: auto !important;
+}
+
+/**
+* Charts
+*/
+
+.apexcharts-legend-marker {
+    margin-right: 0 !important;
+    margin-left: 6px !important;
+}
+
+
+/**
+* Countdown Timer
+*/
+
+.elmpath-countdown-1 > span:first-child,
+.elmpath-countdown-2 > span:first-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+/**
+* Counter
+*/
+
+.elmpath-counter-5.has-icon .counter-icon {
+    left: 0 !important;
+
+}
+
+
+/**
+* EDD Products
+*/
+
+[class*="elmpath-edd-products"] .edd_price_options input {
+    left: auto !important;
+    right: 0;
+}
+
+[class*="elmpath-edd-products"] .edd_price {
+    right: auto !important;
+    left: 18px;
+}
+
+[class*="elmpath-edd-products"] .edd_price_options ul li > label {
+    padding: 0 28px 0 0 !important;
+}
+
+/**
+* Ninja Form
+*/
+
+.elmpath-ninja-forms .nf-form-content .nf-error.field-wrap .nf-field-element:after,
+.elmpath-ninja-forms .nf-form-content .list-select-wrap > div div:after {
+    right: auto !important;
+    left: 12px;
+}
+
+/**
+* Pricing Plan
+*/
+
+.pricing-content > ul li {
+    text-align: right !important;
+    padding: 0 30px 0 0 !important;
+}
+
+.pricing-content .check-close-icon {
+    left: auto !important;
+    right: 0;
+}
+
+/**
+* Progress Bar
+*/
+
+.elmpath-progress-bar-1 .elmpath-pb-label {
+    left: auto !important;
+    right: 0;
+}
+
+.elmpath-progress-bar-1 .elmpath-pb-percent {
+    right: auto !important;
+    left: 0;
+}
+
+.elmpath-progress-bar-2 .elmpath-pb-label {
+    text-align: right !important;
+}
+
+.elmpath-progress-bar-2 .elmpath-pb-percent {
+    right: auto !important;
+    margin: 0 0 0 22px !important;
+    left: 0;
+}
+
+.elmpath-progress-bar-3 .elmpath-pb-indicator {
+    left: -12px;
+    right: auto !important;
+}
+
+.elmpath-progress-bar-3 .elmpath-progress-fill .elmpath-pb-percent {
+    right: auto !important;
+    left: -15px;
+}
+
+.elmpath-progress-bar-3 .elmpath-pb-start-label {
+    margin-right: 0 !important;
+    margin-left: 1%;
+}
+
+.elmpath-progress-bar-3 .elmpath-pb-end-label {
+    margin-left: 0 !important;
+    margin-right: 1%;
+}
+
+/**
+* Social Profile
+*/
+
+.elmpath-social-profile-2 a:last-child {
+    margin-left: 15px;
+}
+
+/**
+* Tabs
+*/
+
+.rtl .elmpath-tabs-6 .tab-content {
+    transform: translate(-33%);
+}
+
+.rtl .elmpath-tabs-5 .elmpath-tab-panel > .tab-nav .tab-nav-item {
+    border-right: 8px solid transparent;
+}
+
+.rtl .elmpath-tabs-5 .elmpath-tab-panel > .tab-nav .tab-nav-item.active,
+.rtl .elmpath-tabs-5 .elmpath-tab-panel > .tab-nav .tab-nav-item:hover {
+    color: #FF5722;
+    background-color: #fff;
+    border-right-color: #FF5722;
+    border-radius: 0 12px 12px 0;
+}
+
+/**
+* Team
+*/
+
+.rtl .elmpath-team-1 .elmpath-team-title-wrap:before {
+    left: auto;
+    right: 0;
+}
+
+/**
+* Testimonial
+*/
+
+.rtl .elmpath-testimonial-1 .elmpath-testi-desc:after {
+    left: auto;
+    right: 50px;
+}
+
+.rtl .elmpath-testimonial-1 .elmpath-testi-img,
+.rtl .elmpath-testimonial-5 .elmpath-testi-img {
+    margin-left: 15px;
+}
+
+.rtl .elmpath-testimonial-2 .elmpath-testi-img {
+    margin-left: 25px;
+}
+
+.rtl .elmpath-testimonial-2 .elmpath-testi-rating-text {
+    float: left;
+}
+
+.rtl .elmpath-testimonial-5 .elmpath-testi-desc {
+    border-left: 0;
+    border-right: 5px solid #0000cc;;
+}
+
+/**
+* Timeline
+*/
+
+.rtl .elmpath-timeline-3 .author > img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+@media (min-width: 992px) {
+	.rtl .elmpath-timeline-1 .timeline-single:nth-child(odd) {
+		right: 50%;
+	}
+
+	.rtl .elmpath-timeline-1 .timeline-single:nth-child(odd):after {
+		right: -16px;
+	}
+
+	.rtl .elmpath-timeline-1 .timeline-single:nth-child(even):after {
+		right: auto;
+		left: -17px;
+	}
+
+    .rtl .elmpath-timeline-3:after {
+        right: 11.5%;
+        left: auto;
+    }
+
+    .rtl .elmpath-timeline-4 .timeline-single:nth-child(even) .timeline-icon {
+        left: -30px;
+        right: auto;
+    }
+
+    .rtl .elmpath-timeline-4 .timeline-single:nth-child(odd) {
+        left: -50%;
+    }
+
+    .rtl .elmpath-timeline-4 .timeline-single:nth-child(even) {
+        left: 0;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+    .rtl .elmpath-timeline-1 .timeline-single,
+    .rtl .elmpath-timeline-4 .timeline-single {
+        width: 100%;
+        padding-right: 70px;
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .rtl .elmpath-timeline-1:after {
+        right: 31px;
+    }
+
+    .rtl .elmpath-timeline-1 .timeline-single:after {
+        right: 17px;
+    }
+
+    .rtl .elmpath-timeline-4:after {
+        left: auto;
+        right: 30px;
+    }
+
+    .rtl .elmpath-timeline-4 .timeline-single .timeline-icon {
+        right: 0;
+        left: auto;
+    }
+
+}
+
+
+/**
+* Tribe Events
+*/
+
+.rtl .elmpath-tribe-events-1 .elmpath-event-date {
+    right: auto;
+    left: 15px;
+}
+
+
+/**
+* Tutor course
+*/
+
+.rtl .tutor-course-loop-price>.price .tutor-loop-cart-btn-wrap {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/**
+* Typewriter
+*/
+
+.rtl .cd-words-wrapper {
+    text-align: right;
+}
+
+.rtl .cd-headline.clip .cd-words-wrapper {
+    padding-left: 10px;
+}
+
+.rtl .cd-headline.clip .cd-words-wrapper::after {
+    right: auto;
+    left: 0;
+}
+
+/**
+* Marquee Newsticker
+*/
+
+.rtl .elmpath-marquee-2 .elmpath-marquee-label, .rtl .elmpath-newsticker-2 .elmpath-newsticker-label,
+.rtl .elmpath-newsticker-3 .elmpath-newsticker-label, .rtl .elmpath-newsticker-5 .elmpath-newsticker-label {
+    margin-right: 0;
+}
+
+.rtl .elmpath-newsticker-4 .elmpath-newsticker-label,
+.rtl .elmpath-marquee-4 .elmpath-marquee-label {
+    border-left: 0;
+    border-right: 6px solid #f44336;
+}

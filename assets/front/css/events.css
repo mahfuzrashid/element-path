@@ -1,0 +1,179 @@
+/**
+ * Element Name: Events
+ */
+
+
+.elmpath-event-title a {
+    color: #0c0c0c;
+}
+
+
+.elmpath-tribe-events .elmpath-event-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+/**
+* Style 1
+*/
+.elmpath-tribe-events-1 .elmpath-event-title {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-body {
+    position: relative;
+    padding: 35px 15px 0;
+    background-color: #fff;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-price {
+    font-size: 17px;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-price strong {
+    margin-right: 5px;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    padding-top: 17px;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-date {
+    width: 62px;
+    height: 62px;
+    line-height: 1;
+    text-align: center;
+    font-size: 17px;
+    background: #f65858;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    top: -40px;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-day {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-date.pb-tooltip:after {
+    right: 0;
+    margin: 0 auto 14px;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-date.pb-tooltip:before {
+    bottom: calc(100% - 1px);
+    right: 20px;
+}
+
+.elmpath-tribe-events-1 .elmpath-icofont-earth {
+    margin-right: 5px;
+}
+
+.elmpath-tribe-events-1 .address-website-icon a {
+    color: #f65858;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-title a {
+    transition: all .3s ease-in;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-title a:hover {
+    box-shadow: 0 -1px 0 0 #fff inset, 0 -2px 0 0 #f65858 inset;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-item.no-event-thumb {
+    margin-top: 40px;
+}
+
+.elmpath-tribe-events-1 .elmpath-event-item.no-event-thumb .elmpath-event-body {
+    border: 1px solid #eee;
+    padding: 35px 20px 25px;
+}
+
+
+/**
+* Style 2
+*/
+.elmpath-tribe-events-2 .elmpath-event-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.elmpath-tribe-events-2 .elmpath-event-body {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: -30px auto 0;
+    width: calc(100% - 30px);
+}
+
+.elmpath-tribe-events-2 .elmpath-event-date.pb-tooltip {
+    font-weight: 600;
+    color: #999;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.elmpath-tribe-events-2 .elmpath-event-price {
+    font-size: 17px;
+}
+
+.elmpath-tribe-events-2 .elmpath-event-price strong {
+    margin-right: 5px;
+}
+
+.elmpath-tribe-events-2 .elmpath-event-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+}
+
+.elmpath-tribe-events-2 .elmpath-event-date.pb-tooltip:after {
+    right: auto;
+    left: 0;
+    margin: 0 auto 14px;
+}
+
+.elmpath-tribe-events-2 .elmpath-event-date.pb-tooltip:before {
+    bottom: calc(100% - 1px);
+    left: 20px;
+    right: auto;
+}
+
+.elmpath-tribe-events-2 .elmpath-icofont-earth {
+    margin-right: 5px;
+}
+
+.elmpath-tribe-events-2 .address-website-icon a {
+    color: #f65858;
+}
+
+.elmpath-tribe-events-2 .elmpath-event-title a:hover {
+    color: #f65858;
+}
+
+.elmpath-tribe-events-2 .elmpath-event-item.no-event-thumb .elmpath-event-body {
+    width: 100%;
+    margin-top: 0;
+}

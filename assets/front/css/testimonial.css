@@ -1,0 +1,321 @@
+/**
+ * Element Name: Testimonial
+ */
+
+[class*="elmpath-testimonial-"] .elmpath-testi-name {
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+    letter-spacing: 0;
+}
+
+[class*="elmpath-testimonial-"] .elmpath-testi-desc p {
+    color: #7a7a7a;
+}
+
+
+[class*="elmpath-testimonial-"] .elmpath-testi-desc p:last-child {
+    margin-bottom: 0 !important;
+}
+
+.elmpath-testi-designation {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.elmpath-testi-rating i {
+    color: #FF9A26;
+    font-size: 16px;
+    line-height: 1;
+    margin-right: 2px;
+}
+
+.elmpath-testi-rating i:last-child {
+    margin-right: 0;
+}
+
+
+/**
+* Style 1
+*/
+
+.elmpath-testimonial-1 .elmpath-testi-desc {
+    position: relative;
+    z-index: 10;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0 10px 70px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.elmpath-testimonial-1 .elmpath-testi-rating {
+    margin-top: 20px;
+}
+
+.elmpath-testimonial-1 .elmpath-testi-desc:after {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 55px;
+    background: #fff;
+    bottom: -11px;
+    left: 50px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.elmpath-testimonial-1 .elmpath-testi-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+body:not(.rtl) .elmpath-testimonial-1 .elmpath-testi-img {
+    margin-right: 15px;
+}
+
+.elmpath-testimonial-1 .elmpath-testi-img > img {
+    max-width: 60px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+/**
+* Style 2
+*/
+
+.elmpath-testimonial-2 {
+    position: relative;
+    z-index: 10;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0 10px 70px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+
+}
+
+.elmpath-testimonial-2 .elmpath-testi-info {
+    margin-bottom: 15px;
+}
+
+.elmpath-testimonial-2 .elmpath-testi-title {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    letter-spacing: 0;
+}
+
+.elmpath-testimonial-2 .elmpath-testi-rating {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #dedede;
+    clear: both;
+}
+
+.elmpath-testimonial-2 .elmpath-testi-rating-text {
+    float: right;
+}
+
+body:not(.rtl) .elmpath-testimonial-2 .elmpath-testi-img {
+    margin-right: 25px;
+}
+
+.elmpath-testimonial-2 .elmpath-testi-img > img {
+    max-width: 80px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+
+
+/**
+* Style 3
+*/
+
+.elmpath-testimonial-3 {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.elmpath-testimonial-3 .elmpath-testi-img {
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.elmpath-testimonial-3 .elmpath-testi-img > img {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 100px;
+}
+
+.elmpath-testimonial-3 .elmpath-testi-desc {
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.elmpath-testimonial-3 .elmpath-testi-desc > p {
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.elmpath-testimonial-3 .elmpath-testi-info {
+    margin-top: 20px;
+}
+
+.elmpath-testimonial-3 .elmpath-testi-title {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    letter-spacing: 0;
+}
+
+.elmpath-testimonial-3 .elmpath-testi-rating {
+    margin-top: 10px;
+}
+
+.elmpath-testimonial-3 svg {
+    position: absolute;
+    left: -60px;
+    bottom: -15px;
+    transform: rotate(35deg) scale(1.2);
+}
+
+
+/**
+* Style 4
+*/
+
+.elmpath-testimonial-4 {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 10;
+    margin-bottom: 30px;
+}
+
+.elmpath-testimonial-4:after {
+    content: '';
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background: #fff;
+    bottom: -90px;
+    right: -90px;
+    border-radius: 50%;
+    border: 50px solid #000;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.elmpath-testimonial-4 .elmpath-testi-img {
+    padding: 8px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50% 50% 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.elmpath-testimonial-4 .elmpath-testi-img > img {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-width: 100px;
+}
+
+.elmpath-testimonial-4 .elmpath-testi-desc {
+    position: relative;
+    max-width: 460px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.elmpath-testimonial-4 .elmpath-testi-desc > i.elmpath-quote {
+    position: absolute;
+    font-size: 101px;
+    line-height: 1;
+    top: -137px;
+    left: 0;
+    color: rgba(0,0,0,0.1);
+    z-index: -1;
+    transform: rotate(-180deg);
+}
+
+.elmpath-testimonial-4 .elmpath-testi-desc > p {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.elmpath-testimonial-4 .elmpath-testi-info {
+    margin-top: 15px;
+}
+
+.elmpath-testimonial-4 .elmpath-testi-title {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    letter-spacing: 0;
+}
+
+.elmpath-testimonial-4 .elmpath-testi-rating {
+    margin-top: 5px;
+}
+
+
+/**
+* Style 5
+*/
+
+.elmpath-testimonial-5 .elmpath-testi-desc {
+    position: relative;
+    z-index: 10;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0 10px 70px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #0000cc;
+}
+
+.elmpath-testimonial-5 .elmpath-testi-rating {
+    margin-top: 20px;
+}
+
+.elmpath-testimonial-5 .elmpath-testi-desc:after {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 55px;
+    background: #fff;
+    bottom: -11px;
+    left: 50%;
+    transform: rotate(45deg);
+    z-index: -1;
+    margin-left: -34px;
+}
+
+.elmpath-testimonial-5 .elmpath-testi-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+body:not(.rtl) .elmpath-testimonial-5 .elmpath-testi-img {
+    margin-right: 15px;
+}
+
+.elmpath-testimonial-5 .elmpath-testi-img > img {
+    max-width: 84px;
+    border-radius: 50%;
+    vertical-align: bottom;
+}

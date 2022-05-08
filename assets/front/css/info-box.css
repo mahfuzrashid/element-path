@@ -1,0 +1,334 @@
+/**
+ * Element Name: Info Box
+ */
+
+.elmpath-info-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.elmpath-info-box .elmpath-info-title {
+    margin-bottom: 10px;
+    letter-spacing: 0;
+    padding: 0;
+}
+
+.elmpath-info-desc > p:last-child {
+    margin-bottom: 0;
+}
+
+.margin-bottom-remove {
+    margin-bottom: 0 !important;
+}
+
+.icon-wrap > i {
+    display: inline-block;
+}
+
+/**
+ * Style 1
+ */
+
+.elmpath-info-box-1 {
+    text-align: center;
+}
+
+.elmpath-info-box-1 .icon-wrap {
+    margin-bottom: 20px;
+}
+
+.elmpath-info-box-1 .icon-wrap > i {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 32px;
+    text-align: center;
+    color: #E91E63;
+    background-color: rgba(233, 30, 99, 0.1);
+    border-radius: 50%;
+}
+
+.elmpath-info-box-1 .elmpath-info-btn {
+    display: inline-block;
+    background-color: #eee;
+    color: #777;
+    padding: 4px 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.elmpath-info-box-1 .elmpath-info-btn:hover {
+    background-color: rgba(233, 30, 99, 0.1);
+    color: #E91E63;
+}
+
+
+/**
+ * Style 2
+ */
+
+.elmpath-info-box-2 {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.elmpath-info-box-2.has-info-box-link {
+    padding: 30px 30px 40px;
+}
+
+.elmpath-info-box-2 .icon-wrap {
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
+
+.elmpath-info-box-2 .icon-wrap > i {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    line-height: 62px;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(253, 121, 168);
+    border-radius: 5px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 1px #fd79a8;
+    transition: 0.3s;
+}
+
+.elmpath-info-box-2 .elmpath-info-btn {
+    position: absolute;
+    bottom: -25px;
+    left: 45%;
+    transform: translateX(-50%);
+    display: inline-block;
+    background-color: #FD79A8;
+    height: 50px;
+    width: 50px;
+    line-height: 54px;
+    border-radius: 50%;
+    margin-top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.elmpath-info-box-2:hover,
+.elmpath-info-box-2.elmpath-featured {
+    box-shadow: 0 0 25px rgba(253, 121, 168, 0.08);
+    background-color: #fff;
+}
+
+.elmpath-info-box-2:hover .icon-wrap > i,
+.elmpath-info-box-2.elmpath-featured .icon-wrap > i {
+    background-color: rgb(253, 121, 168);
+    border-radius: 50%;
+}
+
+.elmpath-info-box-2:hover .elmpath-info-btn,
+.elmpath-info-box-2.elmpath-featured .elmpath-info-btn {
+    opacity: 1;
+    left: 50%;
+}
+
+
+/**
+ * Style 3
+ */
+
+.elmpath-info-box-3 {
+    position: relative;
+    text-align: center;
+    padding: 50px 30px 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.05);
+    transition: 0.4s;
+}
+
+.elmpath-info-box-3 .info-count {
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.elmpath-info-box-3 .icon-wrap {
+    margin-bottom: 20px;
+}
+.elmpath-info-box-3 .icon-wrap > i {
+    display: inline-block;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+    color: #5a5a5a;
+}
+.elmpath-info-box-3 .elmpath-info-btn {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 60px;
+    line-height: 65px;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.elmpath-info-box-3 .elmpath-info-btn > svg path {
+    fill: #757575;
+}
+
+.elmpath-info-box-3 .elmpath-info-btn:hover > svg path {
+    fill: #70A1FF;
+}
+
+.elmpath-info-box-3:hover {
+    box-shadow: 0 20px 60px -5px rgba(9, 30, 66, .3);
+    transform: translateY(-4px);
+}
+
+
+/**
+ * Style 4
+ */
+
+.elmpath-info-box-4 {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.elmpath-info-box-4.has-info-box-link {
+    padding: 30px 30px 60px;
+}
+
+.elmpath-info-box-4 .icon-wrap {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.elmpath-info-box-4 .icon-wrap > i {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 28px;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+
+.elmpath-info-box-4 .elmpath-info-btn {
+    position: absolute;
+    bottom: -25px;
+    left: 45%;
+    transform: translateX(-50%);
+    display: inline-block;
+    background-color: #43d6e0;
+    height: 50px;
+    width: 50px;
+    line-height: 54px;
+    border-radius: 50%;
+    margin-top: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.elmpath-info-box-4:hover,
+.elmpath-info-box-4.elmpath-featured {
+    box-shadow: 0 0 25px rgba(253, 121, 168, 0.08);
+    background-color: #fff;
+}
+
+.elmpath-info-box-4:hover .elmpath-info-btn,
+.elmpath-info-box-4.elmpath-featured .elmpath-info-btn {
+    opacity: 1;
+    left: 50%;
+}
+
+/**
+ * Style 5
+ */
+
+.elmpath-info-box-5 {
+    background-color: #fff;
+    position: relative;
+    padding: 40px 30px;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.elmpath-info-box-5 .curve-shape {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    z-index: -1;
+}
+
+.elmpath-info-box-5 .icon-wrap {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 45px;
+    z-index: 10;
+    margin-left: 20px;
+}
+
+.elmpath-info-box-5 .icon-wrap:before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    background: #FFA1FC;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+
+.elmpath-info-box-5 .icon-wrap > i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 6px;
+    font-size: 31px;
+    color: #FFA1FC;
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.elmpath-info-box-5 .elmpath-info-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+.elmpath-info-box-5 .elmpath-info-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    line-height: 40px;
+    margin-top: 0;
+}
+
+.elmpath-info-box-5 .elmpath-info-btn svg path {
+    fill: #444;
+}

@@ -1,0 +1,40 @@
+/**
+ * Element Name: weForms
+ */
+
+.elmpath-ninja-forms .nf-form-content {
+    max-width: 100%;
+}
+
+.elmpath-ninja-forms .submit-wrap [type="button"] {
+    min-width: 120px;
+    padding: 16px 36px;
+    line-height: 1;
+}
+
+.elmpath-ninja-forms .nf-form-content .list-select-wrap > div div:after {
+    content: "\f078";
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    right: 12px;
+    bottom: 45%;
+    height: auto;
+    line-height: initial;
+}
+
+.elmpath-ninja-forms .nf-form-content .nf-error.field-wrap .nf-field-element:after {
+    font-size: 12px;
+    top: 12px;
+    right: 11px;
+    bottom: 1px;
+    height: 26px;
+    width: 26px;
+    line-height: 28px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.elmpath-ninja-forms .nf-form-content .list-select-wrap .nf-field-element>div {
+    border: 0;
+}

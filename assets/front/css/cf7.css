@@ -1,0 +1,38 @@
+/**
+ * Element Name: Contact Form 7
+ */
+
+.elmpath-cf7-wrapper .wpcf7 input:not([type=submit]), .elmpath-cf7-wrapper .wpcf7 select, .elmpath-cf7-wrapper .wpcf7 textarea {
+    width: 100%;
+    padding: .75em;
+}
+
+.elmpath-cf7-wrapper .wpcf7 label {
+    display: initial;
+}
+
+.elmpath-cf7-wrapper .wpcf7-form-control-wrap {
+    position: relative;
+    display: block;
+}
+
+.elmpath-form-align-center.elmpath-cf7-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elmpath-form-align-right.elmpath-cf7-wrapper {
+    margin-left: auto;
+}
+
+.elmpath-cf7-wrapper label > .wpcf7-form-control-wrap {
+    margin-top: 10px;
+}
+
+.elmpath-cf7-wrapper .wpcf7-not-valid-tip {
+    text-align: left;
+}
+
+.elmpath-cf7-wrapper .wpcf7-form > p {
+    margin-bottom: 0;
+}

@@ -1,0 +1,40 @@
+Developer guidelines
+
+New styles in an widget
+---------------------------------------------------------------------------------------------------------------
+1. Go file -> wp-content/plugins/element-path/includes/classes/class-functions.php
+2. Go function -> get_widgets()
+3. Go an widget, say elmpath_accordion
+4. Currently 6 styles there, `'styles'     => 6,` To add a new style and increase the value to 7
+5. Now look at the `'views'` You can add a new template to render the new styles markup, example: `'7' => 'template-5',` or
+    you can manage the template rendering with if logic in the existing template: `template-1``.
+    Leaving empty will render the default template: `template-1`
+6. Now add a file if you wish to add a new markup inside this folder: `wp-content/plugins/element-path/widgets/accordion/views/` as `template-5.php`
+
+
+
+New widget
+---------------------------------------------------------------------------------------------------------------
+1. Go file -> wp-content/plugins/element-path/includes/classes/class-functions.php
+2. Go function -> get_widgets()
+3. Add an array element as like the existing elements in this array `$widgets` and configure the keys
+    Example:
+        'elmpath_accordion_new'  => [
+            'title'      => esc_html__( 'Accordion New', 'element-path' ),
+            'icon'       => 'eicon-accordion',
+            'keywords'   => [ 'accordion-new', 'toggle', 'collapse' ],
+            'styles'     => 4,
+            'views'      => [
+                '2' => 'template-2',
+                '3' => 'template-2',
+                '4' => 'template-3',
+            ],
+            'class_name' => 'ELMPATH_Accordion_new',
+            'type'       => 'self',
+        ],
+
+4. Add a folder inside widgets (Folder named must be according to the previous example: accordion-new)
+6. Add files according to view. Following the example, there should have 4 files (template-1.php, template-2.php, template-3.php, template-4.php)
+7. Add a file for the main class inside the root of created folder `accordion-new`. File should be `widget.php`. I suggest look at any of the existing widget class and configure it.
+
+

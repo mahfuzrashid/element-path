@@ -1,0 +1,24 @@
+/**
+ * Element Name: Button
+ */
+
+.elmpath-btn {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 23px;
+    line-height: normal;
+    min-width: 90px;
+    text-align: center;
+    background: #3742FA;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.elmpath-btn:hover,
+.elmpath-btn:focus,
+.elmpath-btn:active {
+    background: #6C757D;
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}

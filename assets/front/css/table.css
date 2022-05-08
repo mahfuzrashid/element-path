@@ -1,0 +1,61 @@
+
+/**
+ * Element Name: Table
+ */
+.elmpath-table .dataTables_filter,
+.elmpath-table .dataTables_length {
+    margin-bottom: 24px;
+}
+
+.elmpath-table select,
+.elmpath-table input[type="search"] {
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.elmpath-table select {
+    padding: 7px 28px 8px 15px;
+    background-position: 87% 50%;
+    background-size: 22px auto;
+}
+
+.elmpath-table label {
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: none;
+}
+
+.elmpath-table .dataTables_info {
+    margin: 13px 0 0;
+    font-size: 15px;
+    color: #444;
+}
+
+.elmpath-table .dataTables_paginate {
+    margin-top: 13px;
+    padding: 0 15px;
+}
+
+.elmpath-table .tablepress .sorting:after, .elmpath-table .tablepress .sorting_asc:after, .elmpath-table .tablepress .sorting_desc:after {
+    right: 13px;
+}
+
+.elmpath-table .tablepress td, .elmpath-table .tablepress th {
+    padding: 14px;
+}
+
+.elmpath-table .tablepress tfoot th, .elmpath-table .tablepress thead th {
+    background-color: #232323;
+    font-weight: 600;
+    color: #fff;
+}
+
+.elmpath-table .tablepress .sorting:hover, .elmpath-table .tablepress .sorting_asc, .elmpath-table .tablepress .sorting_desc {
+    color: #fff;
+    background-color: #0273aa;
+}
+.elmpath-table .paging_simple .paginate_button.next:after, .elmpath-table .paging_simple .paginate_button.previous:before {
+    text-shadow: none;
+    color: #444;
+}

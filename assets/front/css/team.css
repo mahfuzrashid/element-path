@@ -1,0 +1,442 @@
+/**
+ * Element Name: Team
+ */
+
+.elmpath-team-img img {
+    vertical-align: bottom;
+}
+
+.elmpath-team-social {
+    margin: 4px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.elmpath-team-social > li,
+#content .elmpath-team-social > li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.elmpath-team-social > li > a {
+    display: inline-block;
+    padding: 3px;
+    line-height: 1;
+}
+
+.elmpath-team .elmpath-team-name {
+    margin-bottom: 0;
+}
+
+.elmpath-team-designation {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/**
+* Style 1
+*/
+
+.elmpath-team-1 {
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.elmpath-team-1 .elmpath-team-img {
+    position: relative;
+}
+
+.elmpath-team-1 .elmpath-team-img:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.elmpath-team-1 .elmpath-team-title-wrap {
+    position: relative;
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+}
+
+.elmpath-team-1 .elmpath-team-title-wrap:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #D2D2D2;
+    transition: 0.3s;
+}
+
+.elmpath-team-1 .elmpath-team-title {
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.elmpath-team-1 .elmpath-team-contact {
+    margin-bottom: 15px;
+}
+
+.elmpath-team-1 .elmpath-team-contact > a {
+    font-weight: 500;
+    color: #222;
+}
+
+.elmpath-team-1 .elmpath-team-designation {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.elmpath-team-1 .elmpath-team-info {
+    padding: 25px;
+}
+
+.elmpath-team-1 .elmpath-team-info .elmpath-team-short-desc > p:last-child {
+    margin-bottom: 0;
+}
+
+.elmpath-team-1 .elmpath-team-social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.elmpath-team-1 .elmpath-team-social > li > a {
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    line-height: 32px !important;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    transition: opacity 0.4s ease, 0.5s transform ease, background 0.2s;
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.elmpath-team-1 .elmpath-team-social > li:first-child > a {
+    transition-delay: 0.05s;
+}
+
+.elmpath-team-1 .elmpath-team-social > li:nth-child(n + 2) > a {
+    transition-delay: 0.1s;
+}
+
+.elmpath-team-1 .elmpath-team-social > li:nth-child(n + 3) > a {
+    transition-delay: 0.15s;
+}
+
+.elmpath-team-1 .elmpath-team-social > li:nth-child(n + 4) > a {
+    transition-delay: 0.2s;
+}
+
+.elmpath-team-1 .elmpath-team-social > li:nth-child(n + 5) > a {
+    transition-delay: 0.25s;
+}
+
+.elmpath-team-1 .elmpath-team-social > li:nth-child(n + 6) > a {
+    transition-delay: 0.3s;
+}
+
+.elmpath-team-1 .elmpath-team-social > li:nth-child(n + 7) > a {
+    transition-delay: 0.35s;
+}
+
+
+.elmpath-team-1:hover .elmpath-team-social > li > a {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.elmpath-team-1:hover .elmpath-team-title-wrap:before {
+    width: 70px;
+}
+
+.elmpath-team-1:hover .elmpath-team-img:before {
+    opacity: 1;
+}
+
+.elmpath-team-1 .elmpath-team-social > li > a:hover {
+    background: #fff;
+    color: #999;
+}
+
+.elmpath-team-1:hover {
+    box-shadow: 0 20px 60px -5px rgba(9, 30, 66, .3);
+    transform: translateY(-4px);
+}
+
+
+/**
+* Style 2
+*/
+
+.elmpath-team-2 {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.elmpath-team-2 .elmpath-team-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.elmpath-team-2 .elmpath-team-img img {
+    transition: 0.3s;
+}
+
+.elmpath-team-2 .elmpath-team-info {
+    position: absolute;
+    bottom: -40px;
+    background: #fff;
+    width: calc(100% - 60px);
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 8px 8px 30px 0 rgba(42,67,113,.15);
+    padding: 20px;
+}
+
+.elmpath-team-2 .elmpath-team-info .elmpath-team-title {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.elmpath-team-2:hover .elmpath-team-img img {
+    transform: scale(1.06) translateY(6px);
+}
+
+
+/**
+* Style 3
+*/
+
+.elmpath-team-3 {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.elmpath-team-3:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: -moz-linear-gradient(90deg, rgb(0, 32, 96) 0%, rgba(54, 0, 96, 0.50196) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(0, 32, 96) 0%, rgba(54, 0, 96, 0.50196) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(0, 32, 96) 0%, rgba(54, 0, 96, 0.50196) 100%);
+    border-radius: 8px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.elmpath-team-3:hover:before {
+    opacity: 1;
+}
+
+.elmpath-team-3 .elmpath-team-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 30px;
+    text-align: center;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.elmpath-team-3:hover .elmpath-team-info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.elmpath-team-3 .elmpath-team-designation {
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.elmpath-team-3 .elmpath-team-name {
+    color: #fff;
+}
+
+.elmpath-team-3 .elmpath-team-social li > a {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.elmpath-team-3 .elmpath-team-social li > a:hover {
+    background-color: #fff;
+    color: #5a5a5a;
+}
+
+/**
+* Style 4
+*/
+
+.elmpath-team-4 {
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.elmpath-team-4 .elmpath-team-img {
+    max-width: 200px;
+    margin: 0 auto 14px;
+}
+
+
+/**
+* Style 5
+*/
+
+.elmpath-team-5 {
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.elmpath-team-5 .elmpath-team-img {
+    position: relative;
+    z-index: 10;
+    max-width: 100px;
+    margin: 0 auto 25px;
+}
+
+.elmpath-team-5 .elmpath-team-img img {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.elmpath-team-5 .elmpath-team-img:after {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 0;
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: #ff4fc4;
+    z-index: -1;
+}
+
+.elmpath-team-5 .elmpath-team-social > li > a {
+    padding: 0;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 50%;
+    background-color: #ff4fc4;
+    color: #fff;
+    margin: 5px 5px 0 0;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.elmpath-team-5 .elmpath-team-social > li > a:hover {
+    background-color: #0000cc;
+}
+
+
+/**
+* Style 6
+*/
+
+.elmpath-team-6 {
+    position: relative;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    border-radius: 6px;
+    background: #fff;
+    margin: 6px;
+}
+
+.elmpath-team-6:before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #416df6;
+    z-index: -1;
+}
+
+.elmpath-team-6:after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    right: -6px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #416df6;
+    z-index: -1;
+}
+
+.elmpath-team-6 .elmpath-team-img {
+    position: relative;
+    z-index: 10;
+    max-width: 100px;
+    margin: 0 auto 25px;
+}
+
+.elmpath-team-6 .elmpath-team-img img {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.elmpath-team-6 .elmpath-team-rating i {
+    font-size: 13px;
+    color: #ffac30;
+}
+
+.elmpath-team-6 .elmpath-team-rating-count {
+    color: #7a7a7a;
+    margin-left: 3px;
+}
+
+.elmpath-team-6 .elmpath-team-experience {
+    padding-bottom: 6px;
+    display: block;
+    color: #7a7a7a;
+}

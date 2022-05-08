@@ -1,0 +1,703 @@
+@font-face {
+    font-family: 'element-path';
+    src: url('../fonts/element-path.eot?w118d');
+    src: url('../fonts/element-path.eot?#iefixw118d') format('embedded-opentype'),
+    url('../fonts/element-path.woff2?w118d') format('woff2'),
+    url('../fonts/element-path.woff?w118d') format('woff'),
+    url('../fonts/element-path.ttf?w118d') format('truetype'),
+    url('../fonts/element-path.svg?w118d#element-path') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="elmpath-icofont"], [class*=" elmpath-icofont"] {
+    font-family: 'element-path' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 600;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.elmpath-icofont-home:before {
+    content: "\e800";
+}
+
+.elmpath-icofont-apartment:before {
+    content: "\e801";
+}
+
+.elmpath-icofont-pencil:before {
+    content: "\e802";
+}
+
+.elmpath-icofont-magic-wand:before {
+    content: "\e803";
+}
+
+.elmpath-icofont-drop:before {
+    content: "\e804";
+}
+
+.elmpath-icofont-lighter:before {
+    content: "\e805";
+}
+
+.elmpath-icofont-poop:before {
+    content: "\e806";
+}
+
+.elmpath-icofont-sun:before {
+    content: "\e807";
+}
+
+.elmpath-icofont-moon:before {
+    content: "\e808";
+}
+
+.elmpath-icofont-cloud:before {
+    content: "\e809";
+}
+
+.elmpath-icofont-cloud-upload:before {
+    content: "\e80a";
+}
+
+.elmpath-icofont-cloud-download:before {
+    content: "\e80b";
+}
+
+.elmpath-icofont-cloud-sync:before {
+    content: "\e80c";
+}
+
+.elmpath-icofont-cloud-check:before {
+    content: "\e80d";
+}
+
+.elmpath-icofont-database:before {
+    content: "\e80e";
+}
+
+.elmpath-icofont-lock:before {
+    content: "\e80f";
+}
+
+.elmpath-icofont-cog:before {
+    content: "\e810";
+}
+
+.elmpath-icofont-trash:before {
+    content: "\e811";
+}
+
+.elmpath-icofont-dice:before {
+    content: "\e812";
+}
+
+.elmpath-icofont-heart:before {
+    content: "\e813";
+}
+
+.elmpath-icofont-star:before {
+    content: "\e814";
+}
+
+.elmpath-icofont-star-half:before {
+    content: "\e815";
+}
+
+.elmpath-icofont-star-empty:before {
+    content: "\e816";
+}
+
+.elmpath-icofont-flag:before {
+    content: "\e817";
+}
+
+.elmpath-icofont-envelope:before {
+    content: "\e818";
+}
+
+.elmpath-icofont-paperclip:before {
+    content: "\e819";
+}
+
+.elmpath-icofont-inbox:before {
+    content: "\e81a";
+}
+
+.elmpath-icofont-eye:before {
+    content: "\e81b";
+}
+
+.elmpath-icofont-printer:before {
+    content: "\e81c";
+}
+
+.elmpath-icofont-file-empty:before {
+    content: "\e81d";
+}
+
+.elmpath-icofont-file-add:before {
+    content: "\e81e";
+}
+
+.elmpath-icofont-enter:before {
+    content: "\e81f";
+}
+
+.elmpath-icofont-exit:before {
+    content: "\e820";
+}
+
+.elmpath-icofont-graduation-hat:before {
+    content: "\e821";
+}
+
+.elmpath-icofont-license:before {
+    content: "\e822";
+}
+
+.elmpath-icofont-music-note:before {
+    content: "\e823";
+}
+
+.elmpath-icofont-film-play:before {
+    content: "\e824";
+}
+
+.elmpath-icofont-camera-video:before {
+    content: "\e825";
+}
+
+.elmpath-icofont-camera:before {
+    content: "\e826";
+}
+
+.elmpath-icofont-picture:before {
+    content: "\e827";
+}
+
+.elmpath-icofont-book:before {
+    content: "\e828";
+}
+
+.elmpath-icofont-bookmark:before {
+    content: "\e829";
+}
+
+.elmpath-icofont-user:before {
+    content: "\e82a";
+}
+
+.elmpath-icofont-users:before {
+    content: "\e82b";
+}
+
+.elmpath-icofont-shirt:before {
+    content: "\e82c";
+}
+
+.elmpath-icofont-store:before {
+    content: "\e82d";
+}
+
+.elmpath-icofont-cart:before {
+    content: "\e82e";
+}
+
+.elmpath-icofont-tag:before {
+    content: "\e82f";
+}
+
+.elmpath-icofont-phone-handset:before {
+    content: "\e830";
+}
+
+.elmpath-icofont-phone:before {
+    content: "\e831";
+}
+
+.elmpath-icofont-pushpin:before {
+    content: "\e832";
+}
+
+.elmpath-icofont-map-marker:before {
+    content: "\e833";
+}
+
+.elmpath-icofont-map:before {
+    content: "\e834";
+}
+
+.elmpath-icofont-location:before {
+    content: "\e835";
+}
+
+.elmpath-icofont-calendar-full:before {
+    content: "\e836";
+}
+
+.elmpath-icofont-keyboard:before {
+    content: "\e837";
+}
+
+.elmpath-icofont-spell-check:before {
+    content: "\e838";
+}
+
+.elmpath-icofont-screen:before {
+    content: "\e839";
+}
+
+.elmpath-icofont-smartphone:before {
+    content: "\e83a";
+}
+
+.elmpath-icofont-tablet:before {
+    content: "\e83b";
+}
+
+.elmpath-icofont-laptop:before {
+    content: "\e83c";
+}
+
+.elmpath-icofont-laptop-phone:before {
+    content: "\e83d";
+}
+
+.elmpath-icofont-power-switch:before {
+    content: "\e83e";
+}
+
+.elmpath-icofont-bubble:before {
+    content: "\e83f";
+}
+
+.elmpath-icofont-heart-pulse:before {
+    content: "\e840";
+}
+
+.elmpath-icofont-construction:before {
+    content: "\e841";
+}
+
+.elmpath-icofont-pie-chart:before {
+    content: "\e842";
+}
+
+.elmpath-icofont-chart-bars:before {
+    content: "\e843";
+}
+
+.elmpath-icofont-gift:before {
+    content: "\e844";
+}
+
+.elmpath-icofont-diamond:before {
+    content: "\e845";
+}
+
+.elmpath-icofont-linearicons:before {
+    content: "\e846";
+}
+
+.elmpath-icofont-dinner:before {
+    content: "\e847";
+}
+
+.elmpath-icofont-coffee-cup:before {
+    content: "\e848";
+}
+
+.elmpath-icofont-leaf:before {
+    content: "\e849";
+}
+
+.elmpath-icofont-paw:before {
+    content: "\e84a";
+}
+
+.elmpath-icofont-rocket:before {
+    content: "\e84b";
+}
+
+.elmpath-icofont-briefcase:before {
+    content: "\e84c";
+}
+
+.elmpath-icofont-bus:before {
+    content: "\e84d";
+}
+
+.elmpath-icofont-car:before {
+    content: "\e84e";
+}
+
+.elmpath-icofont-train:before {
+    content: "\e84f";
+}
+
+.elmpath-icofont-bicycle:before {
+    content: "\e850";
+}
+
+.elmpath-icofont-wheelchair:before {
+    content: "\e851";
+}
+
+.elmpath-icofont-select:before {
+    content: "\e852";
+}
+
+.elmpath-icofont-earth:before {
+    content: "\e853";
+}
+
+.elmpath-icofont-smile:before {
+    content: "\e854";
+}
+
+.elmpath-icofont-sad:before {
+    content: "\e855";
+}
+
+.elmpath-icofont-neutral:before {
+    content: "\e856";
+}
+
+.elmpath-icofont-mustache:before {
+    content: "\e857";
+}
+
+.elmpath-icofont-alarm:before {
+    content: "\e858";
+}
+
+.elmpath-icofont-bullhorn:before {
+    content: "\e859";
+}
+
+.elmpath-icofont-volume-high:before {
+    content: "\e85a";
+}
+
+.elmpath-icofont-volume-medium:before {
+    content: "\e85b";
+}
+
+.elmpath-icofont-volume-low:before {
+    content: "\e85c";
+}
+
+.elmpath-icofont-volume:before {
+    content: "\e85d";
+}
+
+.elmpath-icofont-mic:before {
+    content: "\e85e";
+}
+
+.elmpath-icofont-hourglass:before {
+    content: "\e85f";
+}
+
+.elmpath-icofont-undo:before {
+    content: "\e860";
+}
+
+.elmpath-icofont-redo:before {
+    content: "\e861";
+}
+
+.elmpath-icofont-sync:before {
+    content: "\e862";
+}
+
+.elmpath-icofont-history:before {
+    content: "\e863";
+}
+
+.elmpath-icofont-clock:before {
+    content: "\e864";
+}
+
+.elmpath-icofont-download:before {
+    content: "\e865";
+}
+
+.elmpath-icofont-upload:before {
+    content: "\e866";
+}
+
+.elmpath-icofont-enter-down:before {
+    content: "\e867";
+}
+
+.elmpath-icofont-exit-up:before {
+    content: "\e868";
+}
+
+.elmpath-icofont-bug:before {
+    content: "\e869";
+}
+
+.elmpath-icofont-code:before {
+    content: "\e86a";
+}
+
+.elmpath-icofont-link:before {
+    content: "\e86b";
+}
+
+.elmpath-icofont-unlink:before {
+    content: "\e86c";
+}
+
+.elmpath-icofont-thumbs-up:before {
+    content: "\e86d";
+}
+
+.elmpath-icofont-thumbs-down:before {
+    content: "\e86e";
+}
+
+.elmpath-icofont-magnifier:before {
+    content: "\e86f";
+}
+
+.elmpath-icofont-cross:before {
+    content: "\e870";
+}
+
+.elmpath-icofont-menu:before {
+    content: "\e871";
+}
+
+.elmpath-icofont-list:before {
+    content: "\e872";
+}
+
+.elmpath-icofont-chevron-up:before {
+    content: "\e873";
+}
+
+.elmpath-icofont-chevron-down:before {
+    content: "\e874";
+}
+
+.elmpath-icofont-chevron-left:before {
+    content: "\e875";
+}
+
+.elmpath-icofont-chevron-right:before {
+    content: "\e876";
+}
+
+.elmpath-icofont-arrow-up:before {
+    content: "\e877";
+}
+
+.elmpath-icofont-arrow-down:before {
+    content: "\e878";
+}
+
+.elmpath-icofont-arrow-left:before {
+    content: "\e879";
+}
+
+.elmpath-icofont-arrow-right:before {
+    content: "\e87a";
+}
+
+.elmpath-icofont-move:before {
+    content: "\e87b";
+}
+
+.elmpath-icofont-warning:before {
+    content: "\e87c";
+}
+
+.elmpath-icofont-question-circle:before {
+    content: "\e87d";
+}
+
+.elmpath-icofont-menu-circle:before {
+    content: "\e87e";
+}
+
+.elmpath-icofont-checkmark-circle:before {
+    content: "\e87f";
+}
+
+.elmpath-icofont-cross-circle:before {
+    content: "\e880";
+}
+
+.elmpath-icofont-plus-circle:before {
+    content: "\e881";
+}
+
+.elmpath-icofont-circle-minus:before {
+    content: "\e882";
+}
+
+.elmpath-icofont-arrow-up-circle:before {
+    content: "\e883";
+}
+
+.elmpath-icofont-arrow-down-circle:before {
+    content: "\e884";
+}
+
+.elmpath-icofont-arrow-left-circle:before {
+    content: "\e885";
+}
+
+.elmpath-icofont-arrow-right-circle:before {
+    content: "\e886";
+}
+
+.elmpath-icofont-chevron-up-circle:before {
+    content: "\e887";
+}
+
+.elmpath-icofont-chevron-down-circle:before {
+    content: "\e888";
+}
+
+.elmpath-icofont-chevron-left-circle:before {
+    content: "\e889";
+}
+
+.elmpath-icofont-chevron-right-circle:before {
+    content: "\e88a";
+}
+
+.elmpath-icofont-crop:before {
+    content: "\e88b";
+}
+
+.elmpath-icofont-frame-expand:before {
+    content: "\e88c";
+}
+
+.elmpath-icofont-frame-contract:before {
+    content: "\e88d";
+}
+
+.elmpath-icofont-layers:before {
+    content: "\e88e";
+}
+
+.elmpath-icofont-funnel:before {
+    content: "\e88f";
+}
+
+.elmpath-icofont-text-format:before {
+    content: "\e890";
+}
+
+.elmpath-icofont-text-format-remove:before {
+    content: "\e891";
+}
+
+.elmpath-icofont-text-size:before {
+    content: "\e892";
+}
+
+.elmpath-icofont-bold:before {
+    content: "\e893";
+}
+
+.elmpath-icofont-italic:before {
+    content: "\e894";
+}
+
+.elmpath-icofont-underline:before {
+    content: "\e895";
+}
+
+.elmpath-icofont-strikethrough:before {
+    content: "\e896";
+}
+
+.elmpath-icofont-highlight:before {
+    content: "\e897";
+}
+
+.elmpath-icofont-text-align-left:before {
+    content: "\e898";
+}
+
+.elmpath-icofont-text-align-center:before {
+    content: "\e899";
+}
+
+.elmpath-icofont-text-align-right:before {
+    content: "\e89a";
+}
+
+.elmpath-icofont-text-align-justify:before {
+    content: "\e89b";
+}
+
+.elmpath-icofont-line-spacing:before {
+    content: "\e89c";
+}
+
+.elmpath-icofont-indent-increase:before {
+    content: "\e89d";
+}
+
+.elmpath-icofont-indent-decrease:before {
+    content: "\e89e";
+}
+
+.elmpath-icofont-pilcrow:before {
+    content: "\e89f";
+}
+
+.elmpath-icofont-direction-ltr:before {
+    content: "\e8a0";
+}
+
+.elmpath-icofont-direction-rtl:before {
+    content: "\e8a1";
+}
+
+.elmpath-icofont-page-break:before {
+    content: "\e8a2";
+}
+
+.elmpath-icofont-sort-alpha-asc:before {
+    content: "\e8a3";
+}
+
+.elmpath-icofont-sort-amount-asc:before {
+    content: "\e8a4";
+}
+
+.elmpath-icofont-hand:before {
+    content: "\e8a5";
+}
+
+.elmpath-icofont-pointer-up:before {
+    content: "\e8a6";
+}
+
+.elmpath-icofont-pointer-right:before {
+    content: "\e8a7";
+}
+
+.elmpath-icofont-pointer-down:before {
+    content: "\e8a8";
+}
+
+.elmpath-icofont-pointer-left:before {
+    content: "\e8a9";
+}

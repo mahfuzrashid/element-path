@@ -1,0 +1,168 @@
+/**
+ * Element Name: Progress Bar
+ */
+
+
+.elmpath-progress-bar {
+    background: #F5F5FF;
+}
+
+.elmpath-progress-fill {
+    overflow: visible !important;
+    height: 100%;
+    text-align: center;
+    background-color: #007bff;
+}
+
+/**
+* Style 1
+*/
+
+.elmpath-progress-bar-1 {
+    position: relative;
+    height: 24px;
+    overflow: visible;
+    background: #F5F5FF;
+    border-radius: 24px;
+    margin-bottom: 30px;
+}
+
+.elmpath-progress-bar-1 + .elmpath-progress-bar-1 {
+    margin-top: 55px;
+}
+
+.elmpath-progress-bar-1 .elmpath-progress-fill {
+    position: initial;
+    border-radius: 30px;
+}
+
+.elmpath-progress-bar-1 .elmpath-progress-fill > span {
+    position: absolute;
+    top: calc(100% + 8px);
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.elmpath-progress-bar-1 .elmpath-pb-label {
+    left: 0;
+}
+
+.elmpath-progress-bar-1 .elmpath-pb-percent {
+    right: 0;
+}
+
+
+/**
+* Style 2
+*/
+
+.elmpath-progress-bar-2 {
+    position: relative;
+    height: 100px;
+    overflow: visible;
+    background: #F5F5FF;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.elmpath-progress-bar-2 + .elmpath-progress-bar-2 {
+    margin-top: 85px;
+}
+
+.elmpath-progress-bar-2 .elmpath-progress-fill {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: #3BEDCE;
+    background-image: radial-gradient( circle farthest-corner at 7.1% 15.6%, #3BEDCE 0%, #8F6BD5 100.3% );
+}
+
+.elmpath-progress-bar-2 .elmpath-progress-fill > span {
+    position: absolute;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.elmpath-progress-bar-2 .elmpath-pb-label {
+    font-size: 32px;
+    top: -56px;
+    min-width: 310px;
+    text-align: left;
+}
+
+.elmpath-progress-bar-2 .elmpath-pb-percent {
+    font-size: 40px;
+    right: 0;
+    color: #fff;
+    margin-right: 22px;
+}
+
+/**
+* Style 3
+*/
+
+.elmpath-progress-bar-3 {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    margin: 19px 0 60px;
+}
+
+.elmpath-progress-bar-3 .elmpath-pb-start-label {
+    margin-right: 1%;
+}
+
+.elmpath-progress-bar-3 .elmpath-pb-end-label {
+    margin-left: 1%;
+}
+
+.elmpath-progress-bar-3 + .elmpath-progress-bar-3 {
+    margin-top: 125px;
+}
+
+.elmpath-progress-bar-3 .elmpath-pb-indicator {
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    transform: translateY(-50%) skew(35deg);
+    background: #fff;
+    padding: 10px;
+    min-width: 68px;
+}
+
+.elmpath-progress-bar-3 .elmpath-pb-indicator > img {
+    position: relative;
+    transform: skew(-35deg);
+    max-width: 58px;
+    vertical-align: middle;
+}
+
+.elmpath-progress-bar-3 .elmpath-progress-bar-inner {
+    position: relative;
+    height: 24px;
+    overflow: visible;
+    background: #F5F5FF;
+    width: 88%;
+}
+
+.elmpath-progress-bar-3 .elmpath-progress-fill {
+    position: relative;
+}
+
+.elmpath-progress-bar-3 .elmpath-progress-fill .elmpath-pb-percent {
+    position: absolute;
+    top: calc(100% + 20px);
+    right: -15px;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.elmpath-progress-bar-3 .elmpath-pb-percent svg {
+    position: relative;
+    z-index: 999;
+}

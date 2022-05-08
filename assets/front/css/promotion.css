@@ -1,0 +1,67 @@
+/**
+ * Element Name: Promotion Banner
+ */
+
+.elmpath-promo-img img {
+    vertical-align: middle;
+    transition: 0.3s;
+}
+
+.elmpath-promo-1 {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background: #ffeeec;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.elmpath-promo-1.image-alignment-right {
+    flex-direction: row-reverse;
+}
+
+.elmpath-promo-1 .elmpath-promo-sub-title {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+
+.elmpath-promo-1 .elmpath-promo-title {
+    font-size: 28px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.elmpath-promo-1 .elmpath-promo-info {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.elmpath-promo-1 .promo-btn {
+    display: inline-block;
+    text-align: center;
+    width: fit-content;
+    padding: 8px 18px;
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.elmpath-promo-1:hover .elmpath-promo-img img {
+    transform: scale(1.03);
+}
+
+
+@media ( max-width: 650px ) {
+    .elmpath-promo-1 {
+        display: block;
+    }
+
+    .elmpath-promo-img img {
+        margin-bottom: 30px;
+    }
+}
+

@@ -1,0 +1,225 @@
+/**
+ * Element Name: Marquee
+ */
+
+.jctkr-wrapper,
+.jctkr-wrapper *{
+    box-sizing: border-box;
+}
+
+.jctkr-wrapper{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jctkr-wrapper ul {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+    transform: translateY(-50%);
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.jctkr-wrapper.jctkr-initialized ul{
+    opacity: 1;
+}
+.jctkr-wrapper ul li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+.elmpath-marquee * {
+    letter-spacing: 0;
+}
+
+.elmpath-marquee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.elmpath-marquee-wrap {
+    width: 84%;
+}
+
+.elmpath-marquee .elmpath-marquee-single {
+    transition: 0.3s;
+    margin-bottom: 0 !important;
+    margin-left: 25px;
+    padding-left: 25px;
+    border-left: 1px solid #ccc;
+    line-height: 1 !important;
+}
+
+.elmpath-marquee .elmpath-marquee-label {
+    width: 14%;
+    text-align: center;
+    display: block;
+    z-index: 1;
+}
+
+
+/**
+* Style 1
+*/
+
+
+.elmpath-marquee-1 .elmpath-marquee-single {
+    font-size: 19px;
+}
+
+.elmpath-marquee-1 .elmpath-marquee-label {
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #E91E63;
+    color: #fff;
+    font-weight: 600;
+    background-image: linear-gradient( 120deg, #9C27B0 9.6%, #fd0157 96.1% );
+    border-radius: 3px;
+}
+
+/**
+* Style 2
+*/
+
+.elmpath-marquee-2 {
+    border: 1px solid #eee;
+}
+
+.elmpath-marquee-2 .elmpath-marquee-single {
+    font-size: 20px;
+}
+
+.elmpath-marquee-2 .elmpath-marquee-label {
+    font-size: 19px;
+    padding: 10px 17px;
+    background: #F44336;
+    color: #fff;
+    font-weight: 600;
+    margin: -1px 20px -1px -1px;
+}
+
+
+/**
+* Style 3
+*/
+
+.elmpath-marquee-3 {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 800px;
+}
+
+.elmpath-marquee-3 .elmpath-marquee-single {
+    font-size: 20px;
+}
+
+.elmpath-marquee-3 .elmpath-marquee-label {
+    font-size: 18px;
+    padding: 10px 17px;
+    box-shadow: 0 5px 20px rgba(255, 17, 0, 0.12);
+    color: #f44336;
+    background-color: #fff;
+    font-weight: 600;
+    margin: -15px;
+    border-radius: 50px;
+}
+
+
+/**
+* Style 4
+*/
+
+
+.elmpath-marquee-4 .elmpath-marquee-single {
+    font-size: 18px;
+}
+
+.elmpath-marquee-4 .elmpath-marquee-label {
+    background-color: #fff;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-left: 6px solid #f44336;
+    font-weight: 600;
+    color: #f44336;
+}
+
+
+/**
+* Style 5
+*/
+
+.elmpath-marquee-5 {
+    background-color: #f44336;
+    padding: 15px;
+    background-image: linear-gradient( 30deg, #9C27B0 9.6%, #fd0157 96.1% );
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.elmpath-marquee-5 .elmpath-marquee-single a {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.elmpath-marquee-5 .elmpath-marquee-label {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 600;
+    margin: -15px;
+    border-radius: 0;
+    padding: 13px 19px;
+    background-color: #f44336;
+    background-image: linear-gradient( -130deg, #9C27B0 9.6%, #fd0157 96.1% );
+}
+
+@media ( max-width: 1170px ) and (min-width: 768px) {
+    .elmpath-marquee-wrap {
+        width: 78%;
+    }
+
+    .elmpath-marquee .elmpath-marquee-label {
+        width: 18%;
+    }
+}
+
+@media ( max-width: 767px ) {
+    .elmpath-marquee-wrap {
+        width: 100%;
+        text-align: center;
+    }
+
+    .elmpath-marquee-3 {
+        border-radius: 4px;
+    }
+
+    .elmpath-marquee .elmpath-marquee-label {
+        width: 100%;
+        margin: 0 0 14px;
+    }
+    .elmpath-marquee-2 {
+        padding: 12px;
+    }
+
+    .elmpath-marquee-4 .elmpath-marquee-label {
+        border-width: 0 6px;
+        border-style: solid;
+        background: #fff;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .elmpath-marquee.jctkr-wrapper ul {
+        position: relative;
+        transform: none;
+    }
+}
