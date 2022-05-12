@@ -160,3 +160,4 @@ if ( ! function_exists( 'elmpath_pagination' ) ) {
 		return $paginate_links;
 	}
 }
+

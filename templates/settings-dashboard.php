@@ -3,7 +3,7 @@
  * Dashboard Settings
  */
 
-$posted_data = wp_unslash( $_POST );
+$posted_data   = array_map('sanitize_text_field', $_POST );
 $nonce       = elmpath()->get_settings_atts( 'elmpath_nonce', '', $posted_data );
 
 if ( wp_verify_nonce( $nonce, 'elmpath_nonce_action' ) ) {

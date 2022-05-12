@@ -119,8 +119,9 @@ class ELMPATH_Meta_boxes {
 	 */
 	function save_meta_data( $post_id ) {
 
-		$posted_data = wp_unslash( $_POST );
-		$nonce       = elmpath()->get_settings_atts( 'team_meta_nonce_val', '', $posted_data );
+        $posted_data = sanitize_text_field( serialize( $_POST ) );
+        $posted_data = unserialize( $posted_data );
+		$nonce       = sanitize_text_field(elmpath()->get_settings_atts( 'team_meta_nonce_val', '', $posted_data ));
 
 		if ( wp_verify_nonce( $nonce, 'team_meta_nonce' ) ) {
 			// save here

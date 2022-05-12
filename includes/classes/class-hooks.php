@@ -31,7 +31,7 @@ if ( ! class_exists( 'ELMPATH_Hooks' ) ) {
 		 */
 		function import_element() {
 
-			$posted_data   = wp_unslash( $_POST );
+			$posted_data   = array_map('sanitize_text_field', $_POST );
 			$page_id       = elmpath()->get_settings_atts( 'page_id', '91', $posted_data );
 			$local_page_id = elmpath()->get_settings_atts( 'local_page_id', '', $posted_data );
 
@@ -98,8 +98,8 @@ if ( ! class_exists( 'ELMPATH_Hooks' ) ) {
 		 */
 		function populate_import_popup() {
 
-			$posted_data    = wp_unslash( $_POST );
-			$template_id    = elmpath()->get_settings_atts( 'template_id', '', $posted_data );
+            $posted_data   = array_map('sanitize_text_field', $_POST );
+            $template_id    = elmpath()->get_settings_atts( 'template_id', '', $posted_data );
 			$template_group = elmpath()->get_settings_atts( 'template_group', '', $posted_data );
 			$template       = elmpath()->get_template_by_id( $template_id, $template_group );
 			$active_plugins = elmpath()->get_option( 'active_plugins', array() );
