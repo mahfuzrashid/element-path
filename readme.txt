@@ -3,9 +3,9 @@ Contributors: rashid87
 Donate link: http://mahfuzrashid.com/
 Tags: elementor addons, elementor widget, elementor extensions, elementor addon, addons, elementor, addons for elementor, addons pack, classyaddons
 Requires at least: 4.7.0
-Tested up to: 5.8.1
-Stable tag: 1.0.2
-Requires PHP: 5.6.0
+Tested up to: 5.9.3
+Stable tag: 1.0.0
+Requires PHP: 5.6
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Elementor requires at least: 3.0.0
