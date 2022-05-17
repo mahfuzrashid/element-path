@@ -1236,7 +1236,7 @@ if (!class_exists('PB_Settings')) {
             $data = isset($section['callback'][0]->data) ? $section['callback'][0]->data : array();
             $description = isset($data['pages'][$this->get_current_page()]['page_settings'][$section['id']]['description']) ? $data['pages'][$this->get_current_page()]['page_settings'][$section['id']]['description'] : "";
 
-            echo $description;
+            echo esc_html($description);
         }
 
 
